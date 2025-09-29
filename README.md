@@ -1,27 +1,36 @@
 # Project Structure 
-    task-manager-api/
-    │── server.js          # Entry point
+    api-backend/
+    │── app.js          # Entry point
     │── models/            # Mongoose models(UserTask)
     │── routes/            # API routes
     │── controllers/       # Route handlers
     │── middleware/        # Auth middleware
+    │── utils/
     │── config/            # Database connection
     │── .env               # Environment variables
     │── package.json
     task-manage-frontend/
-    |
+    │── public/
+    │── src/
+    │   │── api/
+    │   │── components/
+    │   │── App.js
+    │   │── index.js
+    │── package.json
+    │── README.md
+
     README.md
     
  # Task Manager API (Backend)
 
 ## Setup
 1. Go to backend folder:
-    cd task-manager-api
+    cd api-backend
     
 2. Install dependencies:
    npm install
 
-3. Setup environment variables and Create a .env     file inside task-manager-api folder:
+3. Setup environment variables and Create a .env     file inside api-backend folder:
 
     PORT=5000
     MONGO_URI=mongodb://localhost:27017/taskmanager 
@@ -29,7 +38,7 @@
     JWT_SECRET=mysecretkey
 
 4. Start server
-    node server.js
+    node app.js
 
 # Backend runs at: http://localhost:5000
 
