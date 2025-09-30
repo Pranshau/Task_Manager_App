@@ -125,3 +125,19 @@
 
 # Frontend runs at: http://localhost:3000
 
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ADMIN AND USER DETAILS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+(ALREADY CREATED)
+
+1) Admin Details : 
+    mail : example@gmail.com
+    pass : Example@123
+
+2) User1 Details:
+   mail : react@gmail.com
+   pass : React@123
+   
+3) User1 Details:
+   mail : demo@gmail.com
+   pass : Demo@123
+
+
